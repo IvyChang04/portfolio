@@ -2,7 +2,7 @@ name: Deploy nested Vite App to GitHub Pages
 
 on:
   push:
-    branches: ['main'] # Change to 'master' if your default branch is named master
+    branches: ['master'] # Change to 'master' if your default branch is named master
 
 permissions:
   contents: read
