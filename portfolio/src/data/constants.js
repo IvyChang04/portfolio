@@ -1,7 +1,7 @@
 export const RESUME_URL = "https://drive.google.com/file/d/132Z2kUQKr3CWUI1-hqK1qqN7I_mbSUjq/view?usp=sharing";
-export const GITHUB_URL = 'https://example.com';
-export const LINKEDIN_URL = 'https://example.com';
-export const EMAIL = 'test@example.com';
+export const GITHUB_URL = 'https://github.com/IvyChang04';
+export const LINKEDIN_URL = '';
+export const EMAIL = 'yuwenchang0403@gmail.com';
 
 export const FULL_NAME = 'Yu-Wen Chang';
 export const HEADLINE = 'Software Engineer';
