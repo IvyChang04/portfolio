@@ -4,7 +4,7 @@ export const education = [
   {
     school: 'California State University, Fullerton',
     degree: 'M.S, Computer Science',
-    gpa: '3.93/4.0',
+    gpa: '3.94/4.0',
     highlights: [
       'Blue Team in Offensive Security Society (OSS) at CSUF',
       'WRCCDC (Western Regional Collegiate Cyber Defense Competition)',
@@ -31,7 +31,7 @@ export const experiences = [
     tags: ['React', 'React Native', 'Supabase', 'GPT-5', 'Cloud Run', 'pgmq', 'SetFit', 'RAG Archetecture'],
   },
   {
-    role: 'Full Stack Engineer',
+    role: 'Full Stack Engineer Intern',
     company: 'Eumius Inc.',
     time: 'Jan. 2024 — Aug. 2024',
     location: 'Los Angeles, California',
@@ -41,6 +41,12 @@ export const experiences = [
 ];
 
 export const projects = [
+  {
+    title: 'Tech Trend Tracker (TTT)',
+    description:
+      'An insight platform designed to bridge the gap between job seekers and Applicant Tracking Systems (ATS). The platform scrapes real-time job postings from major boards like LinkedIn and Indeed, processes the data through a distributed big data pipeline to extract in-demand skills via LLMs, and visualizes the trends to help developers optimize their resumes for specific roles.',
+    tech: ['Go', 'Python', 'PostgreSQL(pgvector)', 'RabbitMQ', 'GCP', 'RabbitMQ', 'Docker', 'React', 'Tailwind CSS'],
+  },
   {
     title: 'GPU Acceleration for Administrative Role-Based Access Control',
     description:
@@ -58,12 +64,6 @@ export const projects = [
     description:
       'A fully functional mock enterprise network architected to simulate a realistic SMB infrastructure for competitive cybersecurity exercises. This environment features a multi-machine setup including a core router and DNS server, a web server hosting an intentionally misconfigured PHP application, and a distributed database server, providing a complex and realistic attack surface for red/blue team engagement.',
     tech: ['Alpine Linux', 'BIND9', 'Fedora', 'PHP', 'MySQL'],
-  },
-  {
-    title: 'Tech Trend Tracker (TTT)',
-    description:
-      'An insight platform designed to bridge the gap between job seekers and Applicant Tracking Systems (ATS). The platform scrapes real-time job postings from major boards like LinkedIn and Indeed, processes the data through a distributed big data pipeline to extract in-demand skills via LLMs, and visualizes the trends to help developers optimize their resumes for specific roles.',
-    tech: ['Go', 'PostgreSQL', 'HTMX', 'JavaScript', 'PySpark', 'GPT-5 API'],
   },
   {
     title: 'Skin Tone Analysis',
