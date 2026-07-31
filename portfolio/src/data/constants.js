@@ -5,7 +5,7 @@ export const EMAIL = 'yuwenchang0403@gmail.com';
 
 export const FULL_NAME = 'Yu-Wen Chang';
 export const HEADLINE = 'Software Engineer';
-export const LOCATION = 'Fullerton, California, United States';
+export const LOCATION = 'San Jose, California, United States';
 
 export const BIO =
   "I build scalable full-stack systems and AI-powered platforms that transform complex data into actionable intelligence. With experience spanning event-driven architectures, GPU-accelerated computing, and mobile development, I bring a cross-disciplinary approach to solving challenging engineering problems.";

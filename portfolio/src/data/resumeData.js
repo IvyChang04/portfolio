@@ -42,10 +42,15 @@ export const experiences = [
 
 export const projects = [
   {
+    title: 'Who Rejected Me',
+    description: "A privacy-first Chrome extension that answers the question every job seeker eventually asks: who actually rejected me, and who just ghosted me? The extension quietly watches your Gmail inbox on a background sync loop, then runs each new message through Gemini Nano, the AI model built directly into Chrome, to detect application-related emails and extract the company, position, and status. Because classification happens entirely on-device, no email content ever leaves the user's machine: there's no backend, no third-party AI service, and no analytics. Extracted results are deduplicated into a local application timeline and surfaced as a live dashboard showing applications sent, rejections received, and the pile still waiting on an answer.",
+    tech: ['TypeScript', 'React', 'Manifest V3', 'Gemini Nano', 'Gmail API', 'IndexedDB', 'Vite', 'Playwright', 'GitHub Actions', 'Vitest'],
+  },
+  {
     title: 'Tech Trend Tracker (TTT)',
     description:
-      'An insight platform designed to bridge the gap between job seekers and Applicant Tracking Systems (ATS). The platform scrapes real-time job postings from major boards like LinkedIn and Indeed, processes the data through a distributed big data pipeline to extract in-demand skills via LLMs, and visualizes the trends to help developers optimize their resumes for specific roles.',
-    tech: ['Go', 'Python', 'PostgreSQL(pgvector)', 'RabbitMQ', 'GCP', 'RabbitMQ', 'Docker', 'React', 'Tailwind CSS'],
+      "A skill-intelligence platform that mines real LinkedIn job postings to surface the most in-demand technical skills for any role, answering free-text queries like 'senior backend engineer 2026' with a ranked skill breakdown, related job titles, and tailored portfolio-project ideas. All expensive LLM work (skill extraction via local Gemma, project mining) runs offline in an ingest pipeline, while a stateless Go service on Cloud Run answers each request with fast SQL plus a single in-process embedding, keeping the request path model-free. Search blends semantic retrieval (pgvector/HNSW) with lexical trigram matching (pg_trgm) and aggregates skills at query time, so every search gets its own relevant result set.",
+      tech: ['Go', 'Python', 'PostgreSQL', 'RabbitMQ', 'Ollama/Gemma4', 'ONNX Runtime', 'React', 'TypeScript', 'Docker', 'GCP', 'Github Actions'],
   },
   {
     title: 'GPU Acceleration for Administrative Role-Based Access Control',
