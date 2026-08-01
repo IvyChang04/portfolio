@@ -129,32 +129,37 @@ export const projects = [
 export const skillCategories = [
   {
     name: 'Languages',
-    skills: ['Python', 'Go', 'JavaScript/TypeScript', 'C/C++', 'Java', 'SQL', 'HTML/CSS'],
+    skills: ['Python', 'Go', 'TypeScript', 'JavaScript', 'C/C++', 'Bash', 'Java', 'SQL', 'HTML/CSS'],
     span: 2,
   },
   {
-    name: 'Frontend & Mobile',
-    skills: ['React', 'React Native', 'Tailwind CSS', 'HTMX', 'Android Studio', 'Xcode'],
+    name: 'Frontend',
+    skills: ['React', 'React Native', 'Tailwind CSS', 'Vite', 'REST/GraphQL Integration', 'Responsive Design'],
     span: 2,
   },
   {
-    name: 'Backend & Database',
-    skills: ['Node.js', 'PostgreSQL', 'GraphQL', 'Supabase', 'Firebase', 'RabbitMQ', 'pgmq'],
+    name: 'Backend & APIs',
+    skills: ['Node.js', 'Flask', 'Go', 'RESTful APIs', 'Event Driven Architecture', 'RabbitMQ', 'pgmq', 'Authentication & Authorization'],
+    span: 2,
+  },
+  {
+    name: 'Databases & Data',
+    skills: ['PostgreSQL', 'MySQL', 'MongoDB', 'Supabase', 'pvector', 'Vector Search', 'Schema Design'],
     span: 1,
   },
   {
-    name: 'Cloud & Devops',
-    skills: ['Docker', 'GCP', 'Cloud Run', 'AWS', 'GitLab CI/CD', 'Linux', 'GitHub Action'],
+    name: 'Cloud & DevOps',
+    skills: ['Docker', 'GCP', 'Cloud Run', 'GitLab CI/CD', 'GitHub Actions', 'Linux', 'Git'],
     span: 1,
   },
   {
-    name: 'AI & Data Processing',
-    skills: ['PyTorch', 'Event-driven RAG', 'Llama 3', 'SetFit', 'MCP', 'AI Workflows & Skills'],
+    name: 'AI & Machine Learning',
+      skills: ['PyTorch', 'LLM Integration', 'RAG', 'Model Fine-Tuning', 'Prompt Engineering', 'Ollama', 'Distributed Data Pipelines'],
     span: 1,
   },
   {
-    name: 'Security & HPC',
-    skills: ['CompTIA Security+', 'CUDA', 'Access Control', 'Wireshark', 'Linux Machine Hardening'],
+    name: 'Testing & Security',
+      skills: ['Playwright', 'Vitest', 'Selenium', 'Test Automation', 'Unit & Integration Testing', 'Agile/Scrum', 'CompTIA Security+'],
     span: 1,
   },
 ];
