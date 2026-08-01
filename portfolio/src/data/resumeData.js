@@ -31,7 +31,7 @@ export const experiences = [
     tags: ['React', 'React Native', 'Supabase', 'GPT-5', 'Cloud Run', 'pgmq', 'SetFit', 'RAG Archetecture'],
   },
   {
-    role: 'Full Stack Engineer Intern',
+    role: 'Full Stack Engineer (Part-Time)',
     company: 'Eumius Inc.',
     time: 'Jan. 2024 — Aug. 2024',
     location: 'Los Angeles, California',
